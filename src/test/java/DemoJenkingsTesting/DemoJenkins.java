@@ -34,7 +34,7 @@ public void mainTestMethod() throws InterruptedException
 	driver.navigate().to("https://www.youtube.com");
 	String title=driver.getTitle();
 	
-	System.out.println("Ttitle fof the Page is "+title);
+	System.out.println("Title for the Page is "+title);
 	
 	Thread.sleep(3000);
 	driver.navigate().back();
@@ -42,7 +42,7 @@ public void mainTestMethod() throws InterruptedException
 	Thread.sleep(3000);
 	String titleNew=driver.getTitle();
 	
-	System.out.println("New Ttitle of the Page is "+titleNew);
+	System.out.println("New Title of the Page is "+titleNew);
 
 }
 
